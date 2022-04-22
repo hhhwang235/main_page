@@ -15,7 +15,7 @@
 			}
 			$.ajax({
 				type : "POST",
-				url : "http://localhost:8080/ajax",
+				url : "/ajax",
 				////////Content-Type 명시함
 				headers : {
 					'Content-Type' : 'application/json'
