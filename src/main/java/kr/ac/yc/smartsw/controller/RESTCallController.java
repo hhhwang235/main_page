@@ -22,7 +22,7 @@ public class RESTCallController {
 	
 	@GetMapping({"/rest/{id}", "/rest"})
 	public String test(@PathVariable Optional<Long> id) {
-		String url = "http://localhost:8000/test/";
+		String url = "http://220.66.115.161:8000/test/";
 		
 		try {
 			restService.restGet(url + id.orElse(1L) + "/");
